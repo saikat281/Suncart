@@ -4,17 +4,9 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="border-b px-2 bg-amber-200">
+        <div className="border-b px-2 ">
             <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
                 <div className="flex gap-2 items-center">
-                    <Image
-                        src={"/logo.png"}
-                        alt="logo"
-                        loading="eager"
-                        width={30}
-                        height={30}
-                        className="object-cover h-auto w-auto"
-                    />
                     <h3 className="font-black text-lg">Suncart.</h3>
                 </div>
 
