@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Men's UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 12,
+    "description": "Durable UV protection sunglasses designed for men's summer style.",
+    "image": "https://i.ibb.co.com/VWSZk7fX/Great-Sunglasses-Sports-Cycling-Glasses-Mountain-Bike-Glasses-men-women-D17-MA6-07-Spain.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Men's Cotton T-Shirt",
+    "brand": "CottonCloud",
+    "price": 14,
+    "rating": 4.6,
+    "stock": 25,
+    "description": "Lightweight breathable cotton t-shirt perfect for hot summer days.",
+    "image": "https://i.ibb.co.com/nMx1ZrFf/Men-s-Cotton-Linen-Shirts-Short-Sleeve-Summer-Floral-Button-Down-Hawaiian-Shirt-Relaxed-Fit-Vintage.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 3,
+    "name": "Men's Linen Shirt",
+    "brand": "BreezeWear",
+    "price": 20,
+    "rating": 4.5,
+    "stock": 18,
+    "description": "Stylish linen shirt offering comfort and airflow in summer heat.",
+    "image": "https://i.ibb.co.com/sJJL0d1m/linen.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 4,
+    "name": "Men's Lightweight Trousers",
+    "brand": "AeroWear",
+    "price": 21,
+    "rating": 4.5,
+    "stock": 17,
+    "description": "Comfortable lightweight trousers perfect for warm weather.",
+    "image": "https://i.ibb.co.com/84f9pWgN/lightwet-trouser.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 5,
+    "name": "Men's Sandals",
+    "brand": "StepEase",
+    "price": 22,
+    "rating": 4.5,
+    "stock": 14,
+    "description": "Breathable sandals designed for all-day comfort in summer.",
+    "image": "https://i.ibb.co.com/BHXbHNBK/flip-flop.jpg",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Men's Baseball Cap",
+    "brand": "CapZone",
+    "price": 9,
+    "rating": 4.4,
+    "stock": 35,
+    "description": "Classic baseball cap to protect from sun while keeping style.",
+    "image": "https://i.ibb.co.com/Jwd5r2wh/baseball-cap.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 7,
+    "name": "Men's Sleeveless Tank Top",
+    "brand": "FlexFit",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 22,
+    "description": "Comfortable sleeveless tank top perfect for workouts and hot days.",
+    "image": "https://i.ibb.co.com/LhCkq85z/sleveless-tank-top.jpg",
+    "category": "Clothing"
+  },
+ 
+  {
+    "id": 8,
+    "name": "Men's Sunscreen SPF 50",
+    "brand": "SunGuard",
+    "price": 13,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "High protection sunscreen specially formulated for men's skin.",
+    "image": "https://i.postimg.cc/example9.png",
+    "category": "Skincare"
+  },
+ 
+  {
+    "id": 9,
+    "name": "Beach Tote Bag",
+    "brand": "OceanCarry",
+    "price": 16,
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Spacious tote bag perfect for carrying beach essentials.",
+    "image": "https://i.ibb.co.com/0jNBsnPw/tot-bag.jpg",
+    "category": "Beach Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Beach Towel",
+    "brand": "WaveDry",
+    "price": 14,
+    "rating": 4.6,
+    "stock": 24,
+    "description": "Soft and absorbent towel ideal for beach and poolside use.",
+    "image": "https://i.ibb.co.com/DPFCtLyW/towel.jpg",
+    "category": "Beach Accessories"
+  }
+]
