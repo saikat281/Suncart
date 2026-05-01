@@ -25,6 +25,7 @@ const CareTips = () => {
                     <Image
                         src={"https://i.ibb.co.com/0jNBsnPw/tot-bag.jpg"}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="productImg"
                         className="object-cover rounded-l-2xl"
 
@@ -34,6 +35,7 @@ const CareTips = () => {
                     <Image
                         src={"https://i.ibb.co.com/kVXK0BnN/sunscreen.jpg"}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="productImg"
                         className="object-cover mx-auto"
                     />
@@ -42,6 +44,7 @@ const CareTips = () => {
                     <Image
                         src={"https://i.ibb.co.com/Jwd5r2wh/baseball-cap.jpg"}
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="productImg"
                         className="object-cover mx-auto"
                     />
