@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BsCart4 } from "react-icons/bs";
 
 
@@ -11,12 +12,15 @@ const CareTips = () => {
                         <h1 className="text-4xl font-bold">Upgrade Your Summer Wardrobe with Light, Breathable,  and Trend-Forward Essentials</h1>
                         <p className="text-gray-300">Say goodbye to heavy layers and hello to easy summer fashion. Our pieces are made to help you move freely, stay cool, and look your best no matter where the season takes you.</p>
 
-                        <button className="btn rounded-2xl bg-gray-500 text-white flex items-center gap-2 border border-none">
-                            <div>
-                                <BsCart4 />
-                            </div>
-                            Buy Now
-                        </button>
+                        <Link href={'/allProducts'}>
+                            <button className="btn rounded-2xl bg-gray-500 text-white flex items-center gap-2 border border-none">
+                                <div>
+                                    <BsCart4 />
+                                </div>
+                                Buy Now
+                            </button>
+                        </Link>
+
                     </div>
 
 

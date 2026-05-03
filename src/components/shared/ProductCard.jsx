@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
+import { PiCurrencyDollarBold } from "react-icons/pi";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
 
 
@@ -13,7 +15,7 @@ const ProductCard = ({ brand }) => {
                     src={brand.image}
                     alt={brand.name} />
             </figure>
-            <div className="card-body mt-6">
+            <div className="card-body mt-6 flex flex-col justify-between">
                 <h2 className="card-title text-2xl font-bold">{brand.name}</h2>
                 <div className="flex items-center pt-3 gap-3">
                     <div>
@@ -26,7 +28,7 @@ const ProductCard = ({ brand }) => {
                     <div>
                         <p className="font-medium flex items-center gap-2 text-xl">
                             <div>
-                                <RiMoneyDollarCircleFill />
+                               <PiCurrencyDollarBold />
                             </div>
                             {brand.price}
                         </p>
@@ -35,7 +37,10 @@ const ProductCard = ({ brand }) => {
                 </div>
 
                 <div className="card-actions justify-start">
-                    <button className="btn bg-black text-white w-full">More Details</button>
+                    <Link href={`/allProducts/${brand.id}`} className="w-full">
+                        <button className="btn bg-black text-white w-full">More Details</button>
+                    </Link>
+
                 </div>
             </div>
         </div>

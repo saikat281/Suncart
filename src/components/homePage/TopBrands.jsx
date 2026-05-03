@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const TopBrands = () => {
@@ -46,9 +47,12 @@ const TopBrands = () => {
                 <div className='space-y-3'>
                     <h1 className='text-4xl font-bold'>Top Brands That Define Summer Comfort and Style</h1>
                     <p>Discover summer favorites from brands that understand what it means <br /> to stay cool and stylish. From casual basics to trendy essentials, these names are trusted for making your summer easier, lighter, and more enjoyable.</p>
-                    <button className="btn rounded-2xl bg-black text-white border border-none">  
-                        Buy Now
-                    </button>
+                    <Link href={'/allProducts'}>
+                        <button className="btn rounded-2xl bg-black text-white border border-none">
+                            Buy Now
+                        </button>
+                    </Link>
+
                 </div>
 
             </div>

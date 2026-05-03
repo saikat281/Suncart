@@ -27,7 +27,7 @@ const Navbar = () => {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/allProducts"}>All Photos</Link>
+                        <Link href={"/allProducts"}>All Products</Link>
                     </li>
                     <li>
                         <Link href={"/profile"}>Profile</Link>
